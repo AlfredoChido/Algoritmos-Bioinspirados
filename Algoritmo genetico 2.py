@@ -20,7 +20,7 @@ def medir_aptitud(poblacion):
     aptitud = [0 for i in range(individuos)]
     valores = ["Signo", 2 ** 3, 2 ** 2, 2 ** 1, 2 ** 0, 2 ** -1, 2 ** -2]
     print("")
-    print("VALORES PARA DETERMIANR APTITUD MUSICAL")
+    print("VALORES PARA DETERMIANR APTITUD")
     print(valores)
 
     # Multiplicndo el Vector de Aptitud por el cromosoma ( fila) de cada individuo de la Poblacion.
